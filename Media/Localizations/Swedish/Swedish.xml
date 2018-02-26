@@ -12,9 +12,8 @@
 				<translation id = "dark_mother_location_x" 		value = "Dark Mother location X"/>
 				<translation id = "dark_mother_location_y" 		value = "Dark Mother location Y"/>
 				<translation id = "dark_mother_location_height" value = "Dark Mother location height"/>
-
 				<translation id = "no_creatures" 				value = "Inga varelser"/>
-				<translation id = "game_difficulty" 			value = "Game difficulty"/>
+				<translation id = "game_difficulty" 			value = "Spel svårighetsgrad"/>
 				<translation id = "new_creative_game" 			value = "Peaceful game"/>
 				<translation id = "new_easy_game" 				value = "Easy game"/>
 				<translation id = "new_normal_game" 			value = "Normal game"/>
