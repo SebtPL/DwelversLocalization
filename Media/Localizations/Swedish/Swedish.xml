@@ -34,8 +34,8 @@
 			
 			<translation id = "leave_level" 					value = "Leave this level"/>
 			<translation id = "leave_level_confirm" 			value = "Yes, I want to leave this level"/>
-			<translation id = "main_menu" 						value = "Main menu"/>
-			<translation id = "start_game" 						value = "Start game"/>
+			<translation id = "main_menu" 						value = "Huvudmeny"/>
+			<translation id = "start_game" 						value = "Starta spel"/>
 			<translation id = "resume_game" 					value = "Resume game"/>
 			<translation id = "quit_game" 						value = "Quit game"/>
 			<translation id = "confirm_quit_game" 				value = "Yes, I want to quit"/>

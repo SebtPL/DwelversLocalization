@@ -7,6 +7,7 @@
 				<translation id = "map_seed" 					value = "Map Seed"/>
 				<translation id = "map_width" 					value = "Map Width"/>
 				<translation id = "map_height" 					value = "Map Height"/>
+				<translation id = "map_depth" 					value = "Map Depth"/>
 				<translation id = "map_size_unit" 				value = "Blocks"/>
 				<translation id = "num_portals" 				value = "Number of Portals"/>
 				<translation id = "dark_mother_location_x" 		value = "Dark Mother Location X"/>
@@ -30,16 +31,24 @@
 				<translation id = "creature_level_max" 			value = "Maximum Creature Level"/>
 				<translation id = "water_amount" 				value = "Water Amount"/>
 				<translation id = "lava_amount" 				value = "Lava Amount"/>
-				<translation id = "make_plain_level" 			value = "Make Plain Level"/>
+				<translation id = "editor_level_type_random" 		value = "Map type: Random"/>
+				<translation id = "editor_level_type_rock" 			value = "Map type: Rock"/>
+				<translation id = "editor_level_type_solid_rock" 	value = "Map type: Solid Rock"/>
+				
 			</namespace>
 
 			<translation id = "leave_level" 					value = "Leave This Level"/>
 			<translation id = "leave_level_confirm" 			value = "Yes, I want to leave this level."/>
 			<translation id = "main_menu" 						value = "Main Menu"/>
 			<translation id = "start_game" 						value = "Start Game"/>
+			<translation id = "campaign_game" 					value = "Campaign"/>
+			<translation id = "skirmish_game" 					value = "Skirmish"/>
 			<translation id = "resume_game" 					value = "Resume Game"/>
 			<translation id = "quit_game" 						value = "Quit Game"/>
 			<translation id = "confirm_quit_game" 				value = "Yes, I want to quit."/>
+			
+			<translation id = "game_time_played"				value = "Game time played: %s1:%s2:%s3"/>
+			<translation id = "current_map_seed"				value = "Current map seed: %s1"/>
 		</namespace>
 
 		<namespace id ="main">
@@ -75,6 +84,26 @@
 			</namespace>
 		</namespace>
 
+		<namespace id ="credits">
+			<translation id = "title" 										value = "Credits"/>
+			<translation id = "lead_programmer_and_game_designer" 			value = "Lead programmer and Game Designer"/>		
+			<translation id = "co_executive_producers" 						value = "Co-Executive Producers"/>
+			<translation id = "programmers" 								value = "Programmers"/>
+			<translation id = "game_designers" 								value = "Game Designers"/>
+			<translation id = "creature_artists" 							value = "Creature Artists"/>
+			<translation id = "3d_artists" 									value = "3D Artists"/>
+			<translation id = "animations" 									value = "Animations"/>
+			<translation id = "2d_artists" 									value = "2D Artists"/>
+			<translation id = "ui_designers" 								value = "UI Designers"/>		
+			<translation id = "story_line" 									value = "Story Line"/>
+			<translation id = "music" 										value = "Music"/>			
+			<translation id = "sound_fx" 									value = "Sound FX"/>
+			<translation id = "creature_voice_actor" 						value = "Creature Voice Actor"/>		
+			<translation id = "translation_and_proofreading" 				value = "Translation and Proofreading"/>
+			<translation id = "contributors" 								value = "Contributors"/>		
+			<translation id = "special_thanks" 								value = "Special Thanks"/>
+		</namespace>
+		
 		<namespace id = "set_keys">
 			<translation id = "scroll_camera_forward" 			value = "Scroll Camera Forward"/>
 			<translation id = "scroll_camera_backward" 			value = "Scroll Camera Backward"/>
@@ -142,6 +171,7 @@
 			<translation id = "misc" 								value = "Misc"/>
 			<translation id = "set_keys" 							value = "Set Keys"/>
 			<translation id = "reset_keys"	 						value = "Reset Keys"/>
+			<translation id = "reset_keys_confirm"	 				value = "Yes, Reset All Keys!"/>
 			<translation id = "enter_key" 							value = "Enter a Key"/>
 			<translation id = "map_scroll_speed" 					value = "Keyboard Map Scrolling Speed"/>
 			<translation id = "keyboard_map_rotation_speed" 		value = "Keyboard Map Rotation Speed"/>
@@ -161,6 +191,10 @@
 			<translation id = "enable_cursor_clipping" 				value = "Enable Cursor Clipping (Only available in Windowed Mode)"/>
 			<translation id = "enter_menu_when_game_not_in_focus" 	value = "Enter Menu When the Game is not in Focus"/>
 			<translation id = "show_full_creature_health_bars" 		value = "Show Full Creature Health Bars"/>
+		</namespace>
+		
+		<namespace id ="messages">
+			<translation id = "early_access_warning" 				value = "Early access warning: This game is still in alpha, early access state. You might encounter bugs. You might encounter crashes and you might get frustrated. If possible, report all issues you find to the Dwelvers forum and we will solve it asap!"/>
 		</namespace>
 	</namespace>
 
@@ -246,6 +280,14 @@
 			<translation id = "sewing" 				value = "Sewing"/>
 			<translation id = "set_bait" 			value = "Planting bait"/>
 			<translation id = "rally_flag" 			value = "Rally Flag"/>
+			
+			<translation id = "trapping_mice" 		value = "Trapping mice"/>
+			<translation id = "refilling_cannons" 	value = "Refilling cannons"/>
+			<translation id = "grinding_flour" 		value = "Grinding flour"/>
+			<translation id = "fetching_items" 		value = "Fetching items"/>
+			<translation id = "equipping_items" 	value = "Equipping items"/>
+			<translation id = "storing_items" 		value = "Storing items"/>
+			<translation id = "bartending" 			value = "Bartending"/>
 		 </namespace>
 
 		 <namespace id ="liquid">
@@ -307,8 +349,8 @@
 			<translation id = "catacombs_room" 				rev="2"		value = "Opens a menu with catacombs room buildings."/>
 			<translation id = "farm_room_headline" 			value = "Farm Room Menu"/>
 			<translation id = "farm_room" 					rev="2"		value = "Opens a menu with farm room buildings."/>
-			<translation id = "metalworks_room_headline" 	value = "Metalworks Room Menu"/>
-			<translation id = "metalworks_room" 			rev="2"		value = "Opens a menu with metalworks room buildings."/>
+			<translation id = "crafting_room_headline" 		value = "Crafting Room Menu"/>
+			<translation id = "crafting_room"				value = "Opens a menu with crafting room buildings."/>
 			<translation id = "prison_room_headline" 		value = "Prison Room Menu"/>
 			<translation id = "prison_room" 				rev="2"		value = "Opens a menu with prison room buildings."/>
 			<translation id = "storage_room_headline" 		value = "Storage Room Menu"/>
@@ -543,10 +585,10 @@
 			</namespace>
 
 			<namespace id = "damage">
-				<translation id = "headline" 			value = "Damage Per Second"/>
-				<translation id = "desc" 				value = "Shows the damage this creature can do per second. The value shown is the attack speed multiplied with the damage."/>
-				<translation id = "value" 				value = "Damage: %s1"/>
-				<translation id = "attacks_per_second"  value = "Attacks Per Second"/>
+				<translation id = "headline" 						value = "Damage Per Second"/>
+				<translation id = "desc" 							value = "Shows the damage this creature can do per second. The value shown is the attack speed multiplied with the damage."/>
+				<translation id = "value" 							value = "Damage: %s1"/>
+				<translation id = "attacks_per_second"  rev="2"		value = "Attacks Per Second: %s1"/>
 			</namespace>
 
 			<namespace id = "defense">
@@ -724,6 +766,7 @@
 			<translation id = "wave_next"							value = "Next Wave: %s1"/>
 			<translation id = "wave_desc"							value = "The time left until the next enemy wave descends through the portals."/>
 			<translation id = "wave_next_time"						value = "Time left until next wave: %s1:%s2"/>
+			<translation id = "wave_stopped"						value = "Wave stopped, you need to conquer more portals."/>
 		</namespace>
 		<namespace id ="creature_icon">
 			<translation id = "idle_headline"				value = "Idle Creatures"/>
@@ -794,11 +837,11 @@
 		<translation id = "no_objectives" 						value = "No active objectives."/>
 		<translation id = "battles" 							value = "Battles"/>
 		<translation id = "productions" 						value = "Productions"/>
-		<translation id = "damage" 								value = "Damage: %s1"/>
+		<translation id = "damage" 			rev="2"				value = "Damage"/>
 		<translation id = "attacks_per_second" 					value = "Attacks Per Second: %s1"/>
-		<translation id = "defense" 							value = "Defense: %s1"/>
-		<translation id = "resistance" 							value = "Resistance: %1"/>
-		<translation id = "health" 								value = "Health: %1"/>
+		<translation id = "defense" 		rev="2"				value = "Defense"/>
+		<translation id = "resistance" 		rev="2"				value = "Resistance: %s1"/>
+		<translation id = "health" 			rev="2"				value = "Health: %s1"/>
 		<translation id = "timeShort-m-" 						value = "m"/>
 		<translation id = "time" 								value = "Time"/>
 		<translation id = "creatures" 							value = "Creatures"/>
@@ -811,9 +854,6 @@
 		<translation id = "consumable" 							value = "Consumable"/>
 		<translation id = "units" 								value = "units"/>
 		<translation id = "workload" 							value = "Workload:"/>
-		<translation id = "preparing" 							value = "(Preparing)"/>
-		<translation id = "in_progress" 						value = "(In Progress)"/>
-		<translation id = "attracts" 							value = "Attracts"/>
 		<translation id = "selector_location" 					value = "Selector Location"/>
 		<translation id = "feed_enemies_to_dark_mother" 		value = "Feed enemies to the Dark Mother."/>
 		<translation id = "block_chance" 						value = "Block Chance"/>
@@ -871,98 +911,8 @@
 	</namespace>
 
 	<namespace id = "keys">
-		<translation id = "CONTROL_BREAK" 						value = "CONTROL-BREAK"/>
 		<translation id = "BACKSPACE" 							value = "BACKSPACE"/>
-		<translation id = "TAB" 								value = "TAB"/>
-		<translation id = "CLEAR" 								value = "CLEAR"/>
-		<translation id = "ENTER" 								value = "ENTER"/>
-		<translation id = "SHIFT" 								value = "SHIFT"/>
-		<translation id = "CTRL" 								value = "CTRL"/>
-		<translation id = "ALT" 								value = "ALT"/>
-		<translation id = "PAUSE" 								value = "PAUSE"/>
-		<translation id = "CAPS_LOCK" 							value = "CAPS LOCK"/>
-		<translation id = "ESC" 								value = "ESC"/>
 		<translation id = "SPACEBAR" 							value = "SPACEBAR"/>
-		<translation id = "PAGE_UP" 							value = "PAGE UP"/>
-		<translation id = "PAGE_DOWN" 							value = "PAGE DOWN"/>
-		<translation id = "END" 								value = "END"/>
-		<translation id = "HOME" 								value = "HOME"/>
-		<translation id = "LEFT_ARROW" 							value = "LEFT ARROW"/>
-		<translation id = "UP_ARROW" 							value = "UP ARROW"/>
-		<translation id = "RIGHT_ARROW" 						value = "RIGHT ARROW"/>
-		<translation id = "DOWN_ARROW" 							value = "DOWN ARROW"/>
-		<translation id = "SELECT" 								value = "SELECT"/>
-		<translation id = "PRINT" 								value = "PRINT"/>
-		<translation id = "EXECUTE" 							value = "EXECUTE"/>
-		<translation id = "PRINT_SCREEN" 						value = "PRINT SCREEN"/>
-		<translation id = "INS" 								value = "INS"/>
-		<translation id = "DEL" 								value = "DEL"/>
-		<translation id = "HELP" 								value = "HELP"/>
-		<translation id = "0" 									value = "0"/>
-		<translation id = "1" 									value = "1"/>
-		<translation id = "2" 									value = "2"/>
-		<translation id = "3" 									value = "3"/>
-		<translation id = "4" 									value = "4"/>
-		<translation id = "5" 									value = "5"/>
-		<translation id = "6" 									value = "6"/>
-		<translation id = "7" 									value = "7"/>
-		<translation id = "8" 									value = "8"/>
-		<translation id = "9" 									value = "9"/>
-		<translation id = "A" 									value = "A"/>
-		<translation id = "B" 									value = "B"/>
-		<translation id = "C" 									value = "C"/>
-		<translation id = "D" 									value = "D"/>
-		<translation id = "E" 									value = "E"/>
-		<translation id = "F" 									value = "F"/>
-		<translation id = "G" 									value = "G"/>
-		<translation id = "H" 									value = "H"/>
-		<translation id = "I" 									value = "I"/>
-		<translation id = "J" 									value = "J"/>
-		<translation id = "K" 									value = "K"/>
-		<translation id = "L" 									value = "L"/>
-		<translation id = "M" 									value = "M"/>
-		<translation id = "N" 									value = "N"/>
-		<translation id = "O" 									value = "O"/>
-		<translation id = "P" 									value = "P"/>
-		<translation id = "Q" 									value = "Q"/>
-		<translation id = "R" 									value = "R"/>
-		<translation id = "S" 									value = "S"/>
-		<translation id = "T" 									value = "T"/>
-		<translation id = "U" 									value = "U"/>
-		<translation id = "V" 									value = "V"/>
-		<translation id = "W" 									value = "W"/>
-		<translation id = "X" 									value = "X"/>
-		<translation id = "Y" 									value = "Y"/>
-		<translation id = "Z" 									value = "Z"/>
-		<translation id = "+" 									value = "+"/>
-		<translation id = "-" 									value = "-"/>
-		<translation id = "," 									value = ","/>
-		<translation id = "/" 									value = "/"/>
-		<translation id = "NUMPAD_0" 							value = "NUMPAD 0"/>
-		<translation id = "NUMPAD_1" 							value = "NUMPAD 1"/>
-		<translation id = "NUMPAD_2" 							value = "NUMPAD 2"/>
-		<translation id = "NUMPAD_3" 							value = "NUMPAD 3"/>
-		<translation id = "NUMPAD_4" 							value = "NUMPAD 4"/>
-		<translation id = "NUMPAD_5" 							value = "NUMPAD 5"/>
-		<translation id = "NUMPAD_6" 							value = "NUMPAD 6"/>
-		<translation id = "NUMPAD_7" 							value = "NUMPAD 7"/>
-		<translation id = "NUMPAD_8" 							value = "NUMPAD 8"/>
-		<translation id = "NUMPAD_9" 							value = "NUMPAD 9"/>
-		<translation id = "SEPARATOR" 							value = "SEPARATOR"/>
-		<translation id = "F1" 									value = "F1"/>
-		<translation id = "F2" 									value = "F2"/>
-		<translation id = "F3" 									value = "F3"/>
-		<translation id = "F4" 									value = "F4"/>
-		<translation id = "F5" 									value = "F5"/>
-		<translation id = "F6" 									value = "F6"/>
-		<translation id = "F7" 									value = "F7"/>
-		<translation id = "F8" 									value = "F8"/>
-		<translation id = "F9" 									value = "F9"/>
-		<translation id = "F10" 								value = "F10"/>
-		<translation id = "F11" 								value = "F11"/>
-		<translation id = "F12" 								value = "F12"/>
-		<translation id = "NUM_LOCK" 							value = "NUM LOCK"/>
-		<translation id = "SCROLL_LOCK" 						value = "SCROLL LOCK"/>
 		<translation id = "LEFT_SHIFT" 							value = "LEFT SHIFT"/>
 		<translation id = "RIGHT_SHIFT" 						value = "RIGHT SHIFT"/>
 		<translation id = "LEFT_CONTROL" 						value = "LEFT CONTROL"/>
@@ -1016,8 +966,8 @@
 	</namespace>
 
 	<namespace id = "game_messages">
-		<translation id = "iron_smelter_no_production_headline"		value = "Steel Smelter - Slow Production"/>
-		<translation id = "iron_smelter_no_production"				value = "Your steel ingot production is getting slow. To produce steel ingot you need coal and iron delivered to the steel smelter."/>
+		<translation id = "steel_smelter_no_production_headline"		value = "Steel Smelter - Slow Production"/>
+		<translation id = "steel_smelter_no_production"				value = "Your steel ingot production is getting slow. To produce steel ingot you need coal and iron delivered to the steel smelter."/>
 		<translation id = "mill_no_production_headline"				value = "Mill - Slow Production"/>
 		<translation id = "mill_no_production"						value = "Your flour production is getting slow. To produce flour you need to grind antroots. Check your antroot production in the farmland."/>
 		<translation id = "farm_land_no_production_headline"		value = "Farm Land - Slow Production"/>
@@ -1056,7 +1006,7 @@
 		<translation id = "cleaver_headline"					value = "Cleaver"/>
 		<translation id = "cleaver" 							value="Once a useful tool for butchering animals, now a weapon with a similar purpose against our enemies."/>
 		<translation id = "coal_headline"						value = "Coal"/>
-		<translation id = "coal" 								value="A lump of fossilized carbon that is used primary in the metalworks room as fuel. This mineral is easy to find as it can be mined out of every layer in the dungeon."/>
+		<translation id = "coal" 					rev="2"		value="A lump of fossilized carbon that is used primary in the crafting room as fuel. This mineral is easy to find as it can be mined out of every layer in the dungeon."/>
 		<translation id = "fish_headline"						value = "Fish"/>
 		<translation id = "fish" 								value="It's no surprise your Fishmen are extremely adept at catching fish as long as they have something sturdy to stand on. Build a bridge out to a school of fish and the Fishmen will dive in and catch a fish. Barbecue it and serve it in the bar to still your minions' hunger. "/>
 		<translation id = "flour_headline"						value = "Flour"/>
@@ -1066,13 +1016,13 @@
 		<translation id = "hide_armor_headline"					value = "Hide Armor"/>
 		<translation id = "hide_armor" 							value="A simple hide armor that provides light protection. Can be worn by almost all creatures."/>
 		<translation id = "iron_headline"						value = "Iron"/>
-		<translation id = "iron" 								value="Along with coal, iron is one of the most common elements found in the dungeon. It is rarely seen at the surface, but is not hiding too far below. As it is contaminated by dirt and rock, it must be purified in the iron smelter in the metalworks room before use."/>
+		<translation id = "iron" 					rev="2"		value="Along with coal, iron is one of the most common elements found in the dungeon. It is rarely seen at the surface, but is not hiding too far below. As it is contaminated by dirt and rock, it must be purified in the steel smelter in the crafting room before use."/>
 		<translation id = "steel_armor_headline"				value = "Steel Armor"/>
 		<translation id = "steel_armor" 						value="An armor made out of steel, rope, and leather. It has a high defense but is very heavy. Only the strongest creatures are able to wear it and take advantage of its benefits."/>
 		<translation id = "steel_fist_headline"					value = "Steel Fist"/>
 		<translation id = "steel_fist" 							value="A simple fist weapon made out of steel and wood that delivers devastating punches to enemies."/>
 		<translation id = "steel_ingot_headline"				value = "Steel Ingot"/>
-		<translation id = "steel_ingot" 						value="Made out of iron and coal in the iron smelter at the metalworks room. It has been cast into a suitable shape for further processing, and is mostly used as a crafting material for weapons."/>
+		<translation id = "steel_ingot" 						value="Made out of iron and coal in the iron smelter at the crafting room. It has been cast into a suitable shape for further processing, and is mostly used as a crafting material for weapons."/>
 		<translation id = "knights_hammer_headline"				value = "Knight's Hammer"/>
 		<translation id = "knights_hammer" 						value="This mighty two-handed weapon is primarily crafted for human Knights, and used to keep the threat of the underworld at bay."/>
 		<translation id = "lava_block_headline"					value = "Lava Block"/>
@@ -1188,8 +1138,8 @@
 		<translation id="maze_floor"  			 						value="A standard seamless floor used in mazes to confuse intruders."/>
 		<translation id="maze_wall_headline"  					 		value="Maze Wall"/>
 		<translation id="maze_wall"  			 						value="A solid maze wall that can not be dug through."/>
-		<translation id="metalworks_room_headline"  					value="Metalworks Room"/>
-		<translation id="metalworks_room"  								value="A room for all kinds of metal construction."/>
+		<translation id="crafting_room_headline"  						value="Crafting Room"/>
+		<translation id="crafting_room"  								value="A room for all kinds of crafting needs."/>
 		<translation id="prison_room_headline"  						value="Prison Room"/>
 		<translation id="prison_room"  									value="Needed to keep your enemies in place."/>
 		<translation id="rock_headline"  			 					value="Rock"/>
@@ -1234,8 +1184,8 @@
 		<translation id="farm_room_mill"   			 					value="Grinds antroot into flour."/>
 		<translation id="fishes_headline"   			 				value="Fish"/>
 		<translation id="fishes"   			 							value="Can be cooked and served once caught."/>
-		<translation id="metalworks_room_forge_and_anvil_headline"   	value="Forge and Anvil"/>
-		<translation id="metalworks_room_forge_and_anvil"   			value="Produces weapons and armor using iron and other resources."/>
+		<translation id="crafting_room_forge_and_anvil_headline"   		value="Forge and Anvil"/>
+		<translation id="crafting_room_forge_and_anvil"   				value="Produces weapons and armor using iron and other resources."/>
 		<translation id="graveyard_room_land_headline"   			 	value="Graveyard Room Land"/>
 		<translation id="graveyard_room_land"   			 			value="The land in the graveyard."/>
 		<translation id="graveyard_room_land_gate_headline"   			value="Graveyard Room Gate"/>
@@ -1266,8 +1216,8 @@
 		<translation id="hydraulics_repeater"   			 			value="Enables pressure in only one direction. Very good for creating loops."/>
 		<translation id="hydraulics_switch_headline"   			 		value="Hydraulic Switch"/>
 		<translation id="hydraulics_switch"   			 				value="An switch that turns the pressure on and off."/>
-		<translation id="metalworks_room_iron_smelter_headline"   		value="Steel Smelter"/>
-		<translation id="metalworks_room_iron_smelter"   			 	value="Produces steel ingots from coal and iron ore."/>
+		<translation id="crafting_room_steel_smelter_headline"   		value="Steel Smelter"/>
+		<translation id="crafting_room_steel_smelter"   			 	value="Produces steel ingots from coal and iron ore."/>
 		<translation id="mouse_trap_headline"   			 			value="Mouse Trap"/>
 		<translation id="mouse_trap"   			 						value="A trap for capturing mice."/>
 		<translation id="prison_room_prison_bars_headline"   			value="Prison Bars"/>
@@ -1280,8 +1230,8 @@
 		<translation id="prison_room_wall_skull"   			 			value="A wall torch made from a skull."/>
 		<translation id="training_room_punching_pig_headline"   		value="Punching Pig"/>
 		<translation id="training_room_punching_pig"   			 		value="A good practice target for your melee fighters."/>
-		<translation id="metalworks_room_sewing_machine_headline"   	value="Sewing Machine"/>
-		<translation id="metalworks_room_sewing_machine"   			 	value="Produces clothing out of rope and leather."/>
+		<translation id="crafting_room_sewing_machine_headline"   		value="Sewing Machine"/>
+		<translation id="crafting_room_sewing_machine"   			 	value="Produces clothing out of rope and leather."/>
 		<translation id="stone_bridge_headline"   			 			value="Stone Bridge"/>
 		<translation id="stone_bridge"   			 					value="A stone bridge that can resist lava."/>
 		<translation id="storage_room_corner_shelf_headline"   			value="Corner Shelf Storage"/>
@@ -1432,4 +1382,14 @@
 			<translation id = "message_build_cookery_room_buildings" 	value = "Build a baking table, a barbecue, and a brewing vat in the newly built cookery room."/>
 		</namespace>
 	</namespace>
+	
+	<namespace id ="closing_game">
+		<translation id = "waiting_for_thread" 						value = "-- Waiting for thread: '%s1' --"/>
+		<translation id = "closing_game_threads" 					value = "Closing game thread..."/>
+		<translation id = "saving_game_keys" 						value = "Saving game keys..."/>
+		<translation id = "cleaning_up_game_data" 					value = "Cleaning up game data..."/>
+		<translation id = "deleting_thread_handler" 				value = "Deleting thread handler..."/>
+		<translation id = "cleaning_up_steam_engine" 				value = "Cleaning up steam engine..."/>
+	</namespace>
+	
 </localization>
