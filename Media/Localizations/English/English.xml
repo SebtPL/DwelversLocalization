@@ -127,13 +127,10 @@
 		<namespace id ="sound">
 			<translation id = "soundfx_enabled" 			value = "SoundFX"/>
 			<translation id = "soundfx_volume" 				value = "SoundFX Volume"/>
-			<translation id = "soundfx_volume_unit" 		value = "%"/>
 			<translation id = "music_enabled" 				value = "Music"/>
 			<translation id = "music_volume" 				value = "Music Volume"/>
-			<translation id = "music_volume_unit" 			value = "%"/>
 			<translation id = "dark_mother_enabled" 		value = "Dark Mother Voice"/>
 			<translation id = "dark_mother_volume" 			value = "Dark Mother Voice Volume"/>
-			<translation id = "dark_mother_volume_unit" 	value = "%"/>
 		</namespace>
 
 		<namespace id ="graphics">
@@ -144,9 +141,7 @@
 			<translation id = "fps_limit" 					value = "FPS Limit"/>
 			<translation id = "fps_limit_unfocused" 		value = "FPS Limit When Game is not in Focus"/>
 			<translation id = "brightness" 					value = "Brightness"/>
-			<translation id = "brightness_unit" 			value = "%"/>
 			<translation id = "particles" 					value = "Particles"/>
-			<translation id = "particles_unit" 				value = "%"/>
 		</namespace>
 
 		<namespace id ="set_keys">
@@ -716,17 +711,8 @@
 		</namespace>
 	</namespace>
 
-
-	<namespace id = "credits">
-		<translation id = "lead_programmer_and_game_designer" 	value = "Lead Programmer and Game Designer"/>
+	<namespace id = "intro">
 		<translation id = "presents" 							value = "Presents"/>
-		<translation id = "co-executive_producers" 				value = "Co-Executive Producers"/>
-		<translation id = "game_and_graphics_designer" 			value = "Game and Graphics Designer"/>
-		<translation id = "creatures_3D_artist" 				value = "Creatures 3D Artist"/>
-		<translation id = "music" 								value = "Music"/>
-		<translation id = "contributor" 						value = "Contributors"/>
-		<translation id = "special_thanks" 						value = "Special Thanks To"/>
-		<translation id = "lead_voice_actor" 					value = "Lead Voice Actor"/>
 	</namespace>
 
 	<namespace id = "ui">
@@ -908,15 +894,6 @@
 		<translation id = "LEFT_MOUSE_BUTTON" 					value = "LEFT MOUSE BUTTON"/>
 		<translation id = "RIGHT_MOUSE_BUTTON" 					value = "RIGHT MOUSE BUTTON"/>
 		<translation id = "MIDDLE_MOUSE_BUTTON" 				value = "MIDDLE MOUSE BUTTON"/>
-	</namespace>
-
-	<namespace id = "keys">
-		<translation id = "BACKSPACE" 							value = "BACKSPACE"/>
-		<translation id = "SPACEBAR" 							value = "SPACEBAR"/>
-		<translation id = "LEFT_SHIFT" 							value = "LEFT SHIFT"/>
-		<translation id = "RIGHT_SHIFT" 						value = "RIGHT SHIFT"/>
-		<translation id = "LEFT_CONTROL" 						value = "LEFT CONTROL"/>
-		<translation id = "RIGHT_CONTROL" 						value = "RIGHT CONTROL"/>
 	</namespace>
 
 	<namespace id = "menu_task_history">
@@ -1139,7 +1116,7 @@
 		<translation id="maze_wall_headline"  					 		value="Maze Wall"/>
 		<translation id="maze_wall"  			 						value="A solid maze wall that can not be dug through."/>
 		<translation id="crafting_room_headline"  						value="Crafting Room"/>
-		<translation id="crafting_room"  								value="A room for all kinds of crafting needs."/>
+		<translation id="crafting_room"  				rev="2"			value="A room for crafting materials and making equipments."/>
 		<translation id="prison_room_headline"  						value="Prison Room"/>
 		<translation id="prison_room"  									value="Needed to keep your enemies in place."/>
 		<translation id="rock_headline"  			 					value="Rock"/>
